@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8"; content="text/html"; http-equiv="Content-Type">
+		<title>VOICEBOX</title>
+		<link rel="icon" href="img/favicon.ico" type="images/x-icon">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="style.css">
+		<script src="js/jquery-3.2.1.min.js"></script>
+	</head>
+	<body>
+		<div id="sidebar-holder";>
+			<div id="sidebar";>
+				<div style="flex: 1 0 auto;">
+					<header id="logo">
+						<h3>
+							<a class="logo-img">
+								<img src="img/logo.png" style="max-width: 250px;">
+							</a>
+						</h3>
+					</header>
+					<div id="meta">
+						<div class="item">
+							<a href="login.html">
+								<img src="img/login.png">
+							</a>
+						</div>
+						<div class="item">
+							<a>
+								<img src="img/lupa.png">
+							</a>
+						</div>
+						<div class="item">
+							<a>
+								<img src="img/kart.png">
+							</a>
+						</div>
+					</div>
+					<nav id="menu" role="navigator">
+						<div>
+							<ul class="top-menu size-4">
+								<li class="selected">
+									<a href="index.html">HOME</a>
+								</li>
+								<li>
+									<a href="index.html">MUSIC</a>
+								</li>
+								<li>
+									<a href="info-music.html">MUSIC INFO</a>
+								</li>
+								<li>
+									<a href="about-us.html">ABOUT US</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<aside id="footer">
+					<div class="social-icons">
+						<a href="https://twitter.com/vovaglukhomanyk">
+							<i class="fa fa-twitter fa-fw"></i>
+						</a>
+						<a href="https://www.facebook.com/profile.php?id=100009280295203">
+							<i class="fa fa-facebook fa-fw"></i>
+						</a>
+						<a href="https://www.linkedin.com/in/vladimir-glukhomanyk-9a301a138/">
+							<i class="fa fa-linkedin fa-fw"></i>
+						</a>
+					</div>
+					<p>
+						"Copyright © 2017 "
+						<a>VOICEBOX</a>
+					</p>
+					<p>
+						TEST PROJECT by V.G.
+					</p>
+				</aside>
+			</div>
+		</div>
+		<div id="content-holder" style="heigth: 604px;">
+			<main id="content" role="main">
+				<div id="page-content" class="clearfix">
+					<form method="post" action="/account/login" id="customer_login" accept-charset="UTF-8">
+						<input type="hidden" name="form_type" value="customer_login">
+						<input type="hidden" name="utf8">
+						<header>
+							<h1 class="title">Customer Login</h1>
+						</header>
+						<label for="customer_email" class="hidden-label">Email</label>
+						<input type="email" value name="customer[email]" id="customer_email" placeholder="Email" autocorrect="off"
+						autocapitalize="off" autofocus>
+						<label for="customer_password" class="hidden-label">Password</label>
+						<input type="password" value name="customer[password]" id="customer_password" placeholder="Password">
+						<input type="submit" class="bottom color" value="Login" style="margin-right: 20px">
+						<div class="right" style="top: 10px;">
+							<p>
+								"New Customer?"
+								<a href="D:\MyProjects\OnlineShop\WebContent\OnlineShop\registration.html" id="customer_register_link">Sing Up</a>
+							</p>
+							<br>
+							<br>
+							<a href="D:\MyProjects\OnlineShop\WebContent\OnlineShop\index.html">Return to Store</a>
+						</div>
+					</form>
+				</div>
+			</main>
+		</div>
+	</body>
+</html>

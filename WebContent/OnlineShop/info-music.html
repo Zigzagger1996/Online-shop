@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8"; content="text/html"; http-equiv="Content-Type">
+		<title>VOICEBOX</title>
+		<link rel="icon" href="img/favicon.ico" type="images/x-icon">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="style.css">
+		<script src="js/jquery-3.2.1.min.js"></script>
+	</head>
+	<body>
+		<div id="sidebar-holder";>
+			<div id="sidebar";>
+				<div style="flex: 1 0 auto;">
+					<header id="logo">
+						<h3>
+							<a class="logo-img">
+								<img src="img/logo.png" style="max-width: 250px;">
+							</a>
+						</h3>
+					</header>
+					<div id="meta">
+						<div class="item">
+							<a href="login.html">
+								<img src="img/login.png">
+							</a>
+						</div>
+						<div class="item">
+							<a>
+								<img src="img/lupa.png">
+							</a>
+						</div>
+						<div class="item">
+							<a>
+								<img src="img/kart.png">
+							</a>
+						</div>
+					</div>
+					<nav id="menu" role="navigator">
+						<div>
+							<ul class="top-menu size-4">
+								<li class="selected">
+									<a href="index.html">HOME</a>
+								</li>
+								<li>
+									<a href="index.html">MUSIC</a>
+								</li>
+								<li>
+									<a href="info-music.html">MUSIC INFO</a>
+								</li>
+								<li>
+									<a href="about-us.html">ABOUT US</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<aside id="footer">
+					<div class="social-icons">
+						<a href="https://twitter.com/vovaglukhomanyk">
+							<i class="fa fa-twitter fa-fw"></i>
+						</a>
+						<a href="https://www.facebook.com/profile.php?id=100009280295203">
+							<i class="fa fa-facebook fa-fw"></i>
+						</a>
+						<a href="https://www.linkedin.com/in/vladimir-glukhomanyk-9a301a138/">
+							<i class="fa fa-linkedin fa-fw"></i>
+						</a>
+					</div>
+					<p>
+						"Copyright © 2017 "
+						<a>VOICEBOX</a>
+					</p>
+					<p>
+						TEST PROJECT by V.G.
+					</p>
+				</aside>
+			</div>
+		</div>
+		<div id="content-holder" style="heigth: 100%;">
+			<main id="content" role="main" style="top: 0px">
+				<div id="page-content" class="clearfix">
+					<header class="page-title">
+						<h1>MUSIC IS OUR LIFE!</h1>
+					</header>
+					<div class="rte">
+						<h3>ROCK'n'ROLL MUSIC</h3>
+						<p>"Rock and Roll Music" is a 1957 hit single written and recorded by rock and roll star Chuck Berry.</p>
+						<p>The song has been widely covered and is recognized as one of Berry's most popular and enduring compositions.</p>
+						<p>In the fall of 1957, his recording reached number 6 on Billboard magazine's R&B Singles chart and number 8 on its Hot 100 chart.</p>
+						<p><img src="D:/MyProjects/OnlineShop/WebContent/OnlineShop/img/StaffImage/image1.jpg"></p>
+		
+					</div>
+				</div>
+				<script>
+					
+
+	jQuery(function($) {
+
+    $(window).load(function(){
+
+			$(window).on('hashchange', function(){
+				if ( location.hash !== '' ) {
+					$('html,body').animate({scrollTop: $(location.hash).offset().top - 50}, 350, 'easeInQuad');
+				}
+			});
+
+			if ( location.hash !== '' ) {
+				$('html,body').animate({scrollTop: $(location.hash).offset().top - 50}, 0, 'easeInQuad');
+			}
+
+    });
+
+	});
+
+
+				</script>
+			</main>
+		</div>
+	</body>
+</html>
